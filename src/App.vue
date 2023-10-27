@@ -1,4 +1,4 @@
-<template><br>
+<template>
   <div class="bg-gray-50">
     <!-- LEGEND -->
     <div class="flex flex-wrap mx-auto justify-center">
