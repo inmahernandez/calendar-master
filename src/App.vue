@@ -4,7 +4,7 @@
     <div class="flex flex-wrap mx-auto justify-center">
       <div v-for="path in paths" class="w-1/2 sm:w-1/6 text-xs">
         <div class=" mx-0.5">
-          <p class="text-sm pl-1">{{ path.name }}</p>
+          <!--p class="text-sm pl-1">{{ path.name }}</p-->
           <div v-for="subject in getSubjectsForPath(path.id)" class="my-1 hover:cursor-pointer text-xs px-2 py-1 rounded"
             :class="selectedSubjects.includes(subject.id) ? getPathBackground(path.id) : 'bg-gray-200'"
             @click="toggleSelectedSubject(subject.id)">
