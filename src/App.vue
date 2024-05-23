@@ -150,7 +150,7 @@ export default defineComponent({
     },
     getMonths(calendar: Calendar): Month[] {
       const dates: Date[] = calendar.subjects
-        .flatMap(subject => subject.lectures
+        .flatMap(subject => [...subject.lectures, ...subject.exams]
           .flatMap(lecture => lecture.date))
         .map(this.toDate)
         .sort((a, b) => a.getTime() - b.getTime())
