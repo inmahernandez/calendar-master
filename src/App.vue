@@ -283,9 +283,7 @@ export default defineComponent({
       var startDay = 0;
      
       var startDate = new Date(day.getFullYear(), 0, startDay);
-       if(day.getFullYear() == 2025) {
-       startDate.setDate(startDate.getDate()-2);
-      }
+      startDate.setDate(startDate.getDate()-startDate.getDay());
       const days = Math.floor((day.getTime() - startDate.getTime()) / (24 * 60 * 60 * 1000))
       
       return Math.floor(days / 7);
