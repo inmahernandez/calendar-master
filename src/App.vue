@@ -280,9 +280,13 @@ export default defineComponent({
       return day.toDateString() == new Date().toDateString()
     },
     getWeekNumber(day: Date): number {
-      const startDate = new Date(day.getFullYear(), 0, 0)
+      var startDay = 0;
+      if(day.getFullYear() == 2025) {
+        startDay = 1;
+      }
+      const startDate = new Date(day.getFullYear(), 0, startDay);
       const days = Math.floor((day.getTime() - startDate.getTime()) / (24 * 60 * 60 * 1000))
-
+      
       return Math.floor(days / 7);
 
     },
