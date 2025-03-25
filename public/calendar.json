@@ -960,23 +960,23 @@
             "lectures": [
                 {
                     "date": "22/04/2025",
-                    "room": "A0.30"
+                    "room": "TIC9"
                 },
                 {
                     "date": "28/04/2025",
-                    "room": "A0.30"
+                    "room": "TIC9"
                 },
                 {
                     "date": "29/04/2025",
-                    "room": "A0.30"
+                    "room": "TIC9"
                 },
                 {
                     "date": "14/05/2025",
-                    "room": "A0.30"
+                    "room": "TIC9"
                 },
                 {
                     "date": "19/05/2025",
-                    "room": "A0.30"
+                    "room": "TIC9"
                 }
             ],
             "exams": []
@@ -1072,23 +1072,23 @@
             "lectures": [
                 {
                     "date": "22/04/2025",
-                    "room": "TIC9"
+                    "room": "I01.0"
                 },
                 {
                     "date": "28/04/2025",
-                    "room": "TIC9"
+                    "room": "A0.30"
                 },
                 {
                     "date": "29/04/2025",
-                    "room": "TIC9"
+                    "room": "A0.30"
                 },
                 {
                     "date": "14/05/2025",
-                    "room": "TIC9"
+                    "room": "A0.30"
                 },
                 {
                     "date": "19/05/2025",
-                    "room": "TIC9"
+                    "room": "A0.30"
                 }
             ],
             "exams": []
