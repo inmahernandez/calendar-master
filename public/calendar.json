@@ -1259,6 +1259,10 @@
             "desc": "Sesión TFM"
         },
         {
+            "date": "20/04/2026",
+            "desc": "Sesión Seguimiento TFM"
+        },
+        {
             "date": "03/06/2026",
             "desc": "Sesión Final"
         }
