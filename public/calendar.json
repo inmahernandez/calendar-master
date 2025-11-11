@@ -48,6 +48,10 @@
                 {
                     "date": "23/10/2025",
                     "room": "A0.30"
+                },
+                 {
+                    "date": "12/11/2025",
+                    "room": "A0.30"
                 }
             ],
             "exams": [
@@ -1253,11 +1257,6 @@
         }
     ],
     "special": [
-        
-        {
-            "date": "12/11/2025",
-            "desc": "Sesión TFM"
-        },
         {
             "date": "20/04/2026",
             "desc": "Sesión Seguimiento TFM"
