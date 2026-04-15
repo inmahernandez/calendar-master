@@ -1244,6 +1244,10 @@
             "desc": "Semana Santa"
         },
         {
+            "date": "20/04/2026",
+            "desc": "Feria"
+        },
+        {
             "date": "21/04/2026",
             "desc": "Feria"
         },
@@ -1257,10 +1261,7 @@
         }
     ],
     "special": [
-        {
-            "date": "20/04/2026",
-            "desc": "Sesión Seguimiento TFM"
-        },
+        
         {
             "date": "03/06/2026",
             "desc": "Sesión Final"
