@@ -125,6 +125,10 @@
                     "room": "A0.30"
                 },
                 {
+                    "date": "16/11/2026",
+                    "room": "A0.30"
+                },
+                {
                     "date": "18/11/2026",
                     "room": "A0.30"
                 },
@@ -1272,8 +1276,8 @@
             "desc": "Sesión Bienvenida"
         },
         {
-            "date": "16/11/2026",
-            "desc": "Sesión TFM (*)"
+            "date": "23/11/2026",
+            "desc": "Sesión TFM - Salón de Grados"
         },
         {
             "date": "10/06/2027",
